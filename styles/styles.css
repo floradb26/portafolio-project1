@@ -63,6 +63,13 @@ p{
     text-decoration: none;   
 }
 
+.closing {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    margin: 20px 113px;
+    padding: 15px 100px;
+}
+
 .project-description {
 padding: 120px 60px;
 }
@@ -93,5 +100,24 @@ padding: 120px 60px;
     .project-description{
         padding:0;
         text-align: center;
+    }
+
+    .closing {
+        margin: 0px 10px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .closing h1 {
+        font-size: 15px;
+    }
+    
+    .closing p {
+        font-size: 10px;
+    }
+
+    .btn-branding {
+        font-size: 10px;
+        display: block;
+        margin: 0, auto;
     }
 }
