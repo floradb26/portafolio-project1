@@ -26,23 +26,12 @@ p{
     font-size: 16px;
 }
 
-.hero {
-    background: var(--secondary-color);
-    padding: 160px 20px;
-    text-align: center;
+footer a {
+    color:var(--primary-color);
 }
 
-.hero p {
-    color: var(--third-color);
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-}
-
-.hero h2 {
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
+a:hover {
+    color: var(--primary-color);
 }
 
 .btn-branding {
@@ -68,6 +57,45 @@ p{
     border-radius: 20px;
     margin: 20px 113px;
     padding: 15px 100px;
+}
+
+.hero {
+    background: var(--secondary-color);
+    padding: 160px 20px;
+    text-align: center;
+}
+
+.hero p {
+    color: var(--third-color);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.icons {
+    text-align: center;
+}
+
+.fa-github{
+    background: var(--secondary-color);
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 30px;
+}
+
+.fa-envelope{
+    background: var(--secondary-color);
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 30px;
 }
 
 .project-description {
