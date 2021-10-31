@@ -59,11 +59,22 @@ text-align: center;
 
 footer a {
     color:var(--primary-color);
-
+    text-decoration: none;
 }
 
-a:hover {
+footer .icons a {
     color: var(--primary-color);
+    background: var(--secondary-color);
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 10px 14px;
+    margin: 0px 30px;
+    transition: all 150ms ease-in-out;
+}
+
+footer .icons a:hover {
+    color: white;
+    background: var(--primary-color);
 }
 
 .btn-branding {
@@ -144,22 +155,6 @@ a:hover {
 
 .logo {
 max-height: 40px;
-}
-
-.fa-github{
-    background: var(--secondary-color);
-    border-radius: 30px;
-    font-size: 30px;
-    padding: 10px;
-    margin: 0px 30px;
-}
-
-.fa-envelope{
-    background: var(--secondary-color);
-    border-radius: 30px;
-    font-size: 30px;
-    padding: 10px;
-    margin: 0px 30px;
 }
 
 .project-description {
