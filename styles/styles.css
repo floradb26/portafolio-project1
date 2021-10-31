@@ -83,6 +83,26 @@ a:hover {
     line-height: 2;
 }
 
+.about-section {
+    background: var(--secondary-color);
+    font-size: 20px;
+    padding: 160px 120px;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+   }
+
+.about-section h2 {
+    font-size: 20px;
+   }
+
+   .about-section p {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
 .icons {
     text-align: center;
 }
@@ -130,6 +150,16 @@ padding: 120px 60px;
         font-size: 18px;
     }
 
+    .about-section {
+        font-size: 18px;
+        padding: 50px 10px;  
+        text-align: center;
+    }
+
+    .about-section h1{
+        font-size: 40px;
+    }
+
     .project-description{
         padding:0;
         text-align: center;
@@ -150,8 +180,6 @@ padding: 120px 60px;
 
     .btn-branding {
         font-size: 18px;
-        display: block;
-        margin: 0, auto;
     }
 
 }
