@@ -83,22 +83,22 @@ a:hover {
     line-height: 2;
 }
 
-.about-section {
+.content-container {
     background: var(--secondary-color);
     font-size: 20px;
     padding: 160px 120px;
 }
 
-.about-section h1 {
+.content-container h1 {
     font-size: 64px;
     line-height: 80px;
    }
 
-.about-section h2 {
+.content-container h2 {
     font-size: 20px;
    }
 
-   .about-section p {
+.content-container p {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
@@ -150,13 +150,13 @@ padding: 120px 60px;
         font-size: 18px;
     }
 
-    .about-section {
+    .content-container {
         font-size: 18px;
         padding: 50px 10px;  
         text-align: center;
     }
 
-    .about-section h1{
+    .content-container h1{
         font-size: 40px;
     }
 
