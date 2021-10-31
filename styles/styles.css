@@ -84,7 +84,6 @@ a:hover {
 }
 
 .content-container {
-    background: var(--secondary-color);
     font-size: 20px;
     padding: 160px 120px;
 }
@@ -102,6 +101,15 @@ a:hover {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
+
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+}
+
+.content p{
+    font-size: 14px;
+   }
 
 .icons {
     text-align: center;
